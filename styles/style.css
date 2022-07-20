@@ -390,8 +390,6 @@
             line-height: 26px;
             color: #fff;
             height: 50px;
-            overflow: hidden;
-            text-overflow: ellipsis; 
         } 
          
         .top-img {
