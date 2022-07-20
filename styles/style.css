@@ -380,7 +380,12 @@
             display: flex;
             justify-content: space-around;
         }
-        
+        .top-text-container{
+            width: 45%;
+        }
+        .top-img{
+            width: 45%;
+        }
         .top-text h1 {
             text-align:left;
             font-weight: 700;
