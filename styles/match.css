@@ -262,11 +262,11 @@
     margin: 50px 0px;
 }
 
-.footer-content p {
+.footer-menu {
     text-align: center;
 }
 
-.footer-content p a {
+.footer-menu a {
     text-decoration: none;
     color: #B9B9B9;
     font-weight: 500;
@@ -277,7 +277,7 @@
 .social-links{
     margin-top: 30px;
 }
-.social-links i{
+.social-links i {
     color: #fff;
     font-size: 30px;
     padding: 0px 25px;
@@ -405,14 +405,17 @@
         margin: 20px 0px;
     }
 
-    .footer-menu a{
+    .footer-menu a {
         display: block;
         padding: 20px 0px;
     }
-    .social-links{
+    .social-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    }
+    .social-links >a > i {
+        padding: 0px 15px;
     }
 
 }
