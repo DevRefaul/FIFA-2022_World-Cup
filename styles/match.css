@@ -247,6 +247,7 @@
 
 .footer-content {
     width: 80%;
+    text-align: center;
 }
 
 .footer-content h2 {
@@ -260,10 +261,6 @@
 .footer-content hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin: 50px 0px;
-}
-
-.footer-menu {
-    text-align: center;
 }
 
 .footer-menu a {

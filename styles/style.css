@@ -233,6 +233,9 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin: 50px 0px;
 }
+.footer-content {
+    text-align: center;
+}
 .footer-menu {
     text-align: center;
 }
@@ -536,4 +539,5 @@
             transition: transform 1s linear;
         }
     }
+
 }
