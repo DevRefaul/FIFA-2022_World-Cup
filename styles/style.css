@@ -233,10 +233,10 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin: 50px 0px;
 }
-.footer-content p{
+.footer-menu {
     text-align: center;
 }
-.footer-content p a{
+.footer-menu a{
     text-decoration: none;
     color: #B9B9B9 ;
     font-weight: 500;
@@ -352,7 +352,7 @@
 .footer-content hr {
     margin: 20px 0px;
 }
-.footer-content p a {
+.footer-menu a {
     display: block;
     padding: 20px 0px;
 }
@@ -360,6 +360,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.social-links a i{
+    padding: 0 15px;
+    margin-top: 20px;
 }
 
 }
@@ -493,12 +497,12 @@
 .footer-content hr {
     margin: 20px 0px;
 }
-.footer-content p{
+.footer-menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.footer-content p a{
+.footer-menu a{
    padding: 20px 20px;
 }
 .social-links{
