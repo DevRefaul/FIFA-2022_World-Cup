@@ -139,8 +139,12 @@
     border-radius: 10px;
 ;
 }
-.navigation button:active {
+.navigation .active{
     background-color: #DD0000;
+
+}
+
+.navigation .active a {
     color: #fff;
 }
 .navigation button a{
@@ -237,6 +241,15 @@
     line-height: 24px;
     padding: 5px 30px;
 }
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links i {
+    color: #fff;
+    font-size: 30px;
+    padding: 0px 25px;
+}
 /* --------
     footer section's style done
     -------- */
@@ -323,6 +336,9 @@
     margin-left: 24px;
 
 }
+
+/* footer section started */
+
 #footer-container {
     padding: 50px 0px;
 }
@@ -333,11 +349,16 @@
     display: block;
     padding: 20px 0px;
 }
+.social-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 }
 
 /* for tablet*/
-@media only screen and (min-width:689px) and  (max-width:992px) {
+@media only screen and (min-width:689px) and  (max-width:1024px) {
         #top-section{
             height: auto;
             padding: 20px;
@@ -454,9 +475,38 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.footer-content p a {
+.footer-content p a{
    padding: 20px 20px;
 }
-    
+.social-links{
+      margin-top: 30px;
+  }
 
+  .social-links a i {
+      color: #fff;
+      font-size: 30px;
+      padding: 0px 25px;
+  }
+
+}
+
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+
+    /* top banner keyframe */
+    @keyframes img-animation {
+        0% {
+            transform: translateX(0px);
+            transition: transform 1s linear;
+        }
+
+        50% {
+            transform: translateX(50px);
+            transition: transform 1s linear;
+        }
+
+        100% {
+            transform: translateX(0px);
+            transition: transform 1s linear;
+        }
+    }
 }
